@@ -1,0 +1,30 @@
+{
+    "name": "logseq-rose-pine-theme",
+    "author": "Evangeline Barruel",
+    "version": "1.0.0",
+    "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
+    "logseq": {
+        "id": "logseq-rose-pine-theme",
+        "title": "Rosé Pine Theme",
+        "themes": [
+            {
+                "name": "Rosé Pine",
+                "url": "./src/rose-pine.css",
+                "description": "Default",
+                "mode": "dark"
+            },
+            {
+                "name": "Rosé Pine Moon",
+                "url": "./src/rose-pine-moon.css",
+                "description": "Moon",
+                "mode": "dark"
+            },
+            {
+                "name": "Rosé Pine Dawn",
+                "url": "./src/rose-pine-dawn.css",
+                "description": "Dawn",
+                "mode": "light"
+            }
+        ]
+    }
+}
