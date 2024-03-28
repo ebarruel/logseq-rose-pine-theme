@@ -1,0 +1,137 @@
+.dark-theme, html[data-theme=dark] {
+    /* palette */
+    --rose-pine-base: rgb(25, 23, 36);
+    --rose-pine-surface: rgb(31, 29, 46);
+    --rose-pine-overlay: rgb(38, 35, 58);
+    --rose-pine-muted: rgb(110, 106, 134);
+    --rose-pine-subtle: rgb(144, 140, 170);
+    --rose-pine-text: rgb(224, 222, 244);
+    --rose-pine-love: rgb(235, 111, 146);
+    --rose-pine-gold: rgb(246, 193, 119);
+    --rose-pine-rose: rgb(235, 188, 186);
+    --rose-pine-pine: rgb(49, 116, 143);
+    --rose-pine-foam: rgb(156, 207, 216);
+    --rose-pine-iris: rgb(196, 167, 231);
+    --rose-pine-highlight-low: rgb(33, 32, 46);
+    --rose-pine-highlight-med: rgb(64, 61, 82);
+    --rose-pine-highlight-high: rgb(82, 79, 103);
+
+    /* background */
+    --ls-primary-background-color: var(--rose-pine-base);
+    --ls-secondary-background-color: var(--rose-pine-surface);
+    --ls-tertiary-background-color: var(--rose-pine-overlay);
+    /* --ls-quaternary-background-color: var(--rose-pine-muted); */
+
+
+    /* menu & sidebars */
+    --ls-header-button-background: var(--rose-pine-subtle);
+    --ls-menu-hover-color: var(--rose-pine-text);
+
+    --ls-slide-background-color: var(--ls-primary-background-color);
+
+
+    /* text */
+    --ls-title-text-color: var(--rose-pine-text);
+    --ls-primary-text-color: var(--rose-pine-text);
+    --ls-secondary-text-color: var(--rose-pine-subtle);
+
+    --ls-selection-text-color: var(--ls-secondary-text-color);
+    --ls-selection-background-color: var(--rose-pine-highlight-med);
+    --ls-block-highlight-color: var(--rose-pine-highlight-high);
+
+    --ls-page-mark-color: var(--ls-secondary-text-color);
+    --ls-page-mark-bg-color: var(--rose-pine-highlight-med);
+
+    --ls-page-inline-code-color: var(--ls-primary-text-color);
+    --ls-page-inline-code-bg-color: var(--rose-pine-highlight-low);
+
+    --ls-page-blockquote-color: var(--ls-primary-text-color);
+    --ls-page-blockquote-bg-color: var(--rose-pine-highlight-med);
+    --ls-page-blockquote-border-color: var(--rose-pine-highlight-high);
+
+
+    /* block parts */
+    --ls-block-bullet-color: var(--rose-pine-subtle);
+    --ls-block-bullet-border-color: var(--rose-pine-muted);
+
+
+    /* search results palette */
+    --ls-search-icon-color: var(--rose-pine-subtle);
+
+
+    /* external links */
+    --ls-link-text-color: var(--rose-pine-iris);
+    --ls-link-text-hover-color: var(--rose-pine-rose);
+
+
+    /* internal links */
+    --ls-link-ref-text-color: var(--rose-pine-foam);
+    --ls-link-ref-text-hover-color: var(--rose-pine-pine);
+
+    --ls-tag-text-color: var(--ls-link-ref-text-color);
+    --ls-tag-text-hover-color: var(--ls-link-ref-text-hover-color);
+
+    --ls-cloze-text-color: var(--ls-link-ref-text-color);
+
+
+    /* task */
+    --ls-marker-text-color: var(--rose-pine-foam);
+    --ls-marker-text-bg-color: var(--rose-pine-highlight-med);
+    --ls-marker-text-bg-hover-color: var(--rose-pine-highlight-high);
+
+
+    /* checkboxes and radio buttons */
+    --ls-page-checkbox-color: var(--rose-pine-rose);
+    --ls-page-checkbox-border-color: var(--ls-primary-background-color);
+
+
+    /* properties */
+    --ls-page-properties-background-color: var(--rose-pine-highlight-low);
+    --ls-block-properties-background-color: var(--ls-page-properties-background-color);
+
+
+    /* scrollbars, table header and various ui borders */
+    --ls-table-tr-even-background-color: var(--rose-pine-surface);
+
+    --ls-border-color: var(--rose-pine-overlay);
+    --ls-secondary-border-color: var(--rose-pine-muted);
+    --ls-tertiary-border-color: var(--rose-pine-subtle);
+
+    --ls-wb-stroke-color-default: var(--bujo-background7);
+
+    /* filter & edit buttons on main layout */
+    --ls-icon-color: var(--rose-pine-subtle);
+
+    /* on-boarding and some unknown ui */
+    --ls-active-primary-color: var(--rose-pine-overlay);
+    --ls-active-secondary-color: var(--rose-pine-surface);
+
+    --ls-guideline-color: var(--rose-pine-base);
+
+    --ls-scrollbar-foreground-color: var(--rose-pine-muted);
+    --ls-scrollbar-background-color: var(--rose-pine-surface);
+    --ls-scrollbar-thumb-hover-color: var(--rose-pine-subtle);
+
+    /* block references border color and slash-commands group color */
+    --ls-block-ref-link-text-color: var(--rose-pine-highlight-med);
+
+
+    /* block background highlights */
+    --ls-highlight-color-gray:   var(--rose-pine-muted);
+    --ls-highlight-color-red:    var(--rose-pine-love);
+    --ls-highlight-color-yellow: var(--rose-pine-gold);
+    --ls-highlight-color-green:  var(--rose-pine-pine);
+    --ls-highlight-color-blue:   var(--rose-pine-foam);
+    --ls-highlight-color-purple: var(--rose-pine-iris);
+    --ls-highlight-color-pink:   var(--rose-pine-rose);
+
+
+    /* notifications */
+    --ls-error-text-color: var(--rose-pine-love);
+    --ls-warning-text-color: var(--rose-pine-gold);
+    --ls-success-text-color: var(--rose-pine-pine);
+
+    --ls-error-background-color: var(--rose-pine-highlight-high);
+    --ls-warning-background-color: var(--rose-pine-highlight-med);
+    --ls-success-background-color: var(--rose-pine-highlight-low);
+}
