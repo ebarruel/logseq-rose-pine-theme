@@ -1,0 +1,228 @@
+.dark-theme, html[data-theme=dark] {
+    /* palette */
+    --rose-pine-moon-base: 246deg, 24%, 17%;
+    --rose-pine-moon-surface: 248deg, 24%, 20%;
+    --rose-pine-moon-overlay: 248deg, 21%, 26%;
+    --rose-pine-moon-muted: 249deg, 12%, 47%;
+    --rose-pine-moon-subtle: 248deg, 15%, 61%;
+    --rose-pine-moon-text: 245deg, 50%, 91%;
+    --rose-pine-moon-love: 343deg, 76%, 68%;
+    --rose-pine-moon-gold: 35deg, 88%, 72%;
+    --rose-pine-moon-rose: 2deg, 66%, 75%;
+    --rose-pine-moon-pine: 97deg, 48%, 47%;
+    --rose-pine-moon-foam: 189deg, 43%, 73%;
+    --rose-pine-moon-iris: 267deg, 57%, 78%;
+    --rose-pine-moon-highlight-low: 245deg, 22%, 20%;
+    --rose-pine-moon-highlight-med: 247deg, 16%, 30%;
+    --rose-pine-moon-highlight-high: 249deg, 15%, 38%;
+
+
+    /* background */
+    --ls-primary-background-color: hsl(var(--rose-pine-moon-base));
+    --ls-secondary-background-color: hsl(var(--rose-pine-moon-surface));
+    --ls-tertiary-background-color: hsl(var(--rose-pine-moon-overlay));
+    --ls-quaternary-background-color: hsl(var(--rose-pine-moon-highlight-med));
+
+
+    /* menu & sidebars */
+    --ls-header-button-background: hsl(var(--rose-pine-moon-subtle));
+    --ls-menu-hover-color: hsl(var(--rose-pine-moon-overlay));
+
+    --ls-slide-background-color: var(--ls-primary-background-color);
+
+
+    /* text */
+    --ls-title-text-color: hsl(var(--rose-pine-moon-text));
+    --ls-primary-text-color: hsl(var(--rose-pine-moon-text));
+    --ls-secondary-text-color: hsl(var(--rose-pine-moon-love));
+
+    --ls-selection-text-color: var(--ls-secondary-text-color);
+    --ls-selection-background-color: hsl(var(--rose-pine-moon-highlight-med));
+    --ls-block-highlight-color: hsl(var(--rose-pine-moon-highlight-high));
+
+    --ls-page-mark-color: var(--ls-secondary-text-color);
+    --ls-page-mark-bg-color: hsl(var(--rose-pine-moon-highlight-med));
+
+    --ls-page-inline-code-color: var(--ls-primary-text-color);
+    --ls-page-inline-code-bg-color: hsl(var(--rose-pine-moon-highlight-low));
+
+    --ls-page-blockquote-color: var(--ls-primary-text-color);
+    --ls-page-blockquote-bg-color: hsl(var(--rose-pine-moon-highlight-med));
+    --ls-page-blockquote-border-color: hsl(var(--rose-pine-moon-highlight-high));
+
+
+    /* block parts */
+    --ls-block-bullet-color: hsl(var(--rose-pine-moon-muted));
+    --ls-block-bullet-border-color: hsl(var(--rose-pine-moon-subtle));
+
+
+    /* search results palette */
+    --ls-search-icon-color: hsl(var(--rose-pine-moon-subtle));
+
+
+    /* external links */
+    --ls-link-text-color: hsl(var(--rose-pine-moon-foam));
+    --ls-link-text-hover-color: hsl(var(--rose-pine-moon-iris));
+
+
+    /* internal links */
+    --ls-link-ref-text-color: hsl(var(--rose-pine-moon-foam));
+    --ls-link-ref-text-hover-color: hsl(var(--rose-pine-moon-iris));
+
+    --ls-tag-text-color: var(--ls-link-ref-text-color);
+    --ls-tag-text-hover-color: var(--ls-link-ref-text-hover-color);
+
+    --ls-cloze-text-color: var(--ls-link-ref-text-color);
+
+
+    /* task */
+    --ls-marker-text-color: hsl(var(--rose-pine-moon-rose));
+    --ls-marker-text-bg-color: hsl(var(--rose-pine-moon-highlight-med));
+    --ls-marker-text-bg-hover-color: hsl(var(--rose-pine-moon-highlight-high));
+
+
+    /* checkboxes and radio buttons */
+    --ls-page-checkbox-color: hsl(var(--rose-pine-moon-rose));
+    --ls-page-checkbox-border-color: var(--ls-primary-background-color);
+
+
+    /* properties */
+    --ls-page-properties-background-color: hsl(var(--rose-pine-moon-highlight-low));
+    --ls-block-properties-background-color: var(--ls-page-properties-background-color);
+
+
+    /* scrollbars, table header and various ui borders */
+    --ls-table-tr-even-background-color: hsl(var(--rose-pine-moon-surface));
+
+    --ls-border-color: hsl(var(--rose-pine-moon-overlay));
+    --ls-secondary-border-color: hsl(var(--rose-pine-moon-muted));
+    --ls-tertiary-border-color: hsl(var(--rose-pine-moon-subtle));
+
+    --ls-wb-stroke-color-default: hsl(var(--rose-pine-moon-text));
+
+
+    /* filter & edit buttons on main layout */
+    --ls-icon-color: hsl(var(--rose-pine-moon-iris));
+
+
+    /* on-boarding and some unknown ui */
+    --ls-active-primary-color: hsl(var(--rose-pine-moon-overlay));
+    --ls-active-secondary-color: hsl(var(--rose-pine-moon-surface));
+
+    --ls-guideline-color: hsl(var(--rose-pine-moon-base));
+
+    --ls-scrollbar-foreground-color: hsl(var(--rose-pine-moon-muted));
+    --ls-scrollbar-background-color: hsl(var(--rose-pine-moon-surface));
+    --ls-scrollbar-thumb-hover-color: hsl(var(--rose-pine-moon-subtle));
+
+    --ls-a-chosen-bg: hsl(var(--rose-pine-moon-overlay));
+
+
+    /* block references border color and slash-commands group color */
+    --ls-block-ref-link-text-color: hsl(var(--rose-pine-moon-foam));
+
+
+    /* block background highlights */
+    --ls-highlight-color-gray:   hsl(var(--rose-pine-moon-muted));
+    --ls-highlight-color-red:    hsl(var(--rose-pine-moon-love));
+    --ls-highlight-color-yellow: hsl(var(--rose-pine-moon-gold));
+    --ls-highlight-color-green:  hsl(var(--rose-pine-moon-pine));
+    --ls-highlight-color-blue:   hsl(var(--rose-pine-moon-foam));
+    --ls-highlight-color-purple: hsl(var(--rose-pine-moon-iris));
+    --ls-highlight-color-pink:   hsl(var(--rose-pine-moon-rose));
+
+
+    /* notifications */
+    --ls-error-text-color: hsl(var(--rose-pine-moon-love));
+    --ls-warning-text-color: hsl(var(--rose-pine-moon-gold));
+    --ls-success-text-color: hsl(var(--rose-pine-moon-pine));
+
+    --ls-error-background-color: hsl(var(--rose-pine-moon-highlight-high));
+    --ls-warning-background-color: hsl(var(--rose-pine-moon-highlight-med));
+    --ls-success-background-color: hsl(var(--rose-pine-moon-highlight-low));
+}
+
+html[data-theme=dark] {
+    --background:  var(--rose-pine-moon-base);
+    --primary:     var(--rose-pine-moon-base);
+    --secondary:   var(--rose-pine-moon-surface);
+    --accent:      var(--rose-pine-moon-overlay);
+
+    --foreground:             var(--rose-pine-moon-subtle);
+    --primary-foreground:     var(--rose-pine-moon-subtle);
+    --secondary-foreground:   var(--rose-pine-moon-muted);
+    --accent-foreground:      var(--rose-pine-moon-muted);
+
+    --card:        var(--background);
+    --popover:     var(--background);
+    --muted:       var(--background);
+    --destructive: var(--background);
+
+    --card-foreground:        var(--foreground);
+    --popover-foreground:     var(--foreground);
+    --muted-foreground:       var(--foreground);
+    --destructive-foreground: var(--foreground);
+
+    --border:      var(--rose-pine-moon-overlay);
+    --muted:       var(--rose-pine-moon-muted);
+    --input:       var(--rose-pine-moon-love);
+    --ring:        var(--rose-pine-moon-gold);
+}
+
+/* code blocks */
+
+html[data-theme=dark] .CodeMirror {
+    color: hsla(var(--rose-pine-moon-subtle), .7) !important;
+    background-color: var(--ls-primary-background-color) !important;
+}
+html[data-theme=dark] .CodeMirror .CodeMirror-activeline-background  {
+    background: var(--background);
+}
+html[data-theme=dark] .CodeMirror .CodeMirror-gutters {
+    background-color: var(--ls-secondary-background-color);
+}
+
+html[data-theme=dark] .CodeMirror .cm-keyword {
+    color: var(--ls-secondary-text-color);
+}
+html[data-theme=dark] .CodeMirror .cm-operator {
+    color: var(--ls-primary-text-color);
+    opacity: 0.7;
+}
+html[data-theme=dark] .CodeMirror .cm-property {
+    color: var(--ls-primary-text-color);
+}
+html[data-theme=dark] .CodeMirror .cm-builtin {
+    color: hsl(var(--rose-pine-moon-love));
+}
+html[data-theme=dark] .CodeMirror .cm-number {
+    color: hsl(var(--rose-pine-moon-foam));
+}
+html[data-theme=dark] .CodeMirror .cm-meta {
+    color: hsl(var(--rose-pine-moon-pine));
+}
+html[data-theme=dark] .CodeMirror .cm-string,
+html[data-theme=dark] .CodeMirror .cm-string-2 {
+    color: hsl(var(--rose-pine-moon-gold));
+}
+html[data-theme=dark] .CodeMirror .cm-comment {
+    color: hsl(var(--rose-pine-moon-muted));
+}
+html[data-theme=dark] .CodeMirror .cm-variable,
+html[data-theme=dark] .CodeMirror .cm-qualifier,
+html[data-theme=dark] .CodeMirror .cm-variable-3,
+html[data-theme=dark] .CodeMirror .cm-type {
+    color: var(--ls-primary-text-color);
+}
+html[data-theme=dark] .CodeMirror .cm-variable-2 {
+    color: var(--ls-primary-text-color);
+    font-style: italic;
+    opacity: 0.7;
+}
+html[data-theme=dark] .CodeMirror .cm-def,
+html[data-theme=dark] .CodeMirror .cm-attribute,
+html[data-theme=dark] .CodeMirror .cm-atom,
+html[data-theme=dark] .CodeMirror .cm-tag {
+    color: var(--ls-secondary-text-color);
+    font-style: italic;
+}
