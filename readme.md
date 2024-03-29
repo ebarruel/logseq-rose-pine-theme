@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for App</h2>
+    <h2 align="center">Rosé Pine for Logseq</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -13,35 +13,47 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+### As a plugin (recommended)
+
+1. Open `Plugins` -> `Marketplace` -> `Themes`
+2. Install `Rosé Pine`
+3. Select desired theme variant in `...` -> `Themes`
+
+### In `custom.css`
+
+1. Choose `Edit custom.css` in `...` -> `Settings`
+2. Add one of the following lines:
+
+```
+@import url("https://cdn.jsdelivr.net/gh/ebarruel/logseq-rose-pine-theme@1.0.0/src/rose-pine.css");
+@import url("https://cdn.jsdelivr.net/gh/ebarruel/logseq-rose-pine-theme@1.0.0/src/rose-pine-moon.css");
+@import url("https://cdn.jsdelivr.net/gh/ebarruel/logseq-rose-pine-theme@1.0.0/src/rose-pine-dawn.css");
+```
+
+### In `config.edn`
+
+1. Choose `Edit config.edn` in `...` -> `Settings`
+2. Add one of the following lines:
+
+```
+:custom-css-url "@import url("https://cdn.jsdelivr.net/gh/ebarruel/logseq-rose-pine-theme@1.0.0/src/rose-pine.css");"
+:custom-css-url "@import url("https://cdn.jsdelivr.net/gh/ebarruel/logseq-rose-pine-theme@1.0.0/src/rose-pine-moon.css");"
+:custom-css-url "@import url("https://cdn.jsdelivr.net/gh/ebarruel/logseq-rose-pine-theme@1.0.0/src/rose-pine-dawn.css");"
+```
 
 ## Gallery
 
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+![Rosé Pine](./assets/logseq-rose-pine-theme-demo.png)
+
+![Rosé Pine Moon](./assets/logseq-rose-pine-moon-theme-demo.png)
+
+![Rosé Pine Dawn](./assets/logseq-rose-pine-dawn-theme-demo.png)
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
+- [Evangeline Barruel](https://github.com/ebarruel)
+- [logseq-bujo-theme](https://github.com/stdword/logseq-bujo-theme/tree/main) for structure
 
 ## Contributing
 
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
-
-Modify `template.json` using Rosé Pine variables, then build variants:
-
-```sh
-npx @rose-pine/build@latest
-```
-
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Add a description and topics to automatically show the theme on [rosepinetheme.com/themes](https://rosepinetheme.com/themes)
-    - Description should read "Soho vibes for App" where "App" is the display name
-    - Topics should include [existing categories](https://rosepinetheme.com/themes)
-    - Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
+Feel free to submit any issues or pull requests! It's my first theme and I'm grateful for any constructive criticism.
