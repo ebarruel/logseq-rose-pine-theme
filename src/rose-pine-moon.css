@@ -44,7 +44,7 @@
     --ls-page-mark-bg-color: hsl(var(--rose-pine-moon-highlight-med));
 
     --ls-page-inline-code-color: var(--ls-primary-text-color);
-    --ls-page-inline-code-bg-color: hsl(var(--rose-pine-moon-highlight-low));
+    --ls-page-inline-code-bg-color: hsl(var(--rose-pine-moon-highlight-med));
 
     --ls-page-blockquote-color: var(--ls-primary-text-color);
     --ls-page-blockquote-bg-color: hsl(var(--rose-pine-moon-highlight-med));
@@ -143,10 +143,12 @@
 }
 
 html[data-theme=dark] {
+    /* radix */
+
     --background:  var(--rose-pine-moon-base);
-    --primary:     var(--rose-pine-moon-base);
-    --secondary:   var(--rose-pine-moon-surface);
-    --accent:      var(--rose-pine-moon-overlay);
+    --primary:     var(--rose-pine-moon-surface);
+    --secondary:   var(--rose-pine-moon-overlay);
+    --accent:      var(--rose-pine-moon-highlight-med);
 
     --foreground:             var(--rose-pine-moon-subtle);
     --primary-foreground:     var(--rose-pine-moon-subtle);
