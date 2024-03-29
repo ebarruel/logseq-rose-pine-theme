@@ -43,11 +43,20 @@
 
 ## Gallery
 
+<details>
+<summary>Rosé Pine</summary>
 ![Rosé Pine](./assets/logseq-rose-pine-theme-demo.png)
+</details>
 
+<details>
+<summary>Rosé Pine Moon</summary>
 ![Rosé Pine Moon](./assets/logseq-rose-pine-moon-theme-demo.png)
+</details>
 
+<details>
+<summary>Rosé Pine Dawn</summary>
 ![Rosé Pine Dawn](./assets/logseq-rose-pine-dawn-theme-demo.png)
+</details>
 
 ## Thanks to
 
