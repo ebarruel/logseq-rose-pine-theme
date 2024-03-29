@@ -6,6 +6,7 @@
     "logseq": {
         "id": "logseq-rose-pine-theme",
         "title": "Rosé Pine Theme",
+        "icon": "./assets/icon.png",
         "themes": [
             {
                 "name": "Rosé Pine",
