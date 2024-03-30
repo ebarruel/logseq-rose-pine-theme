@@ -13,13 +13,13 @@
 
 ## Usage
 
-### As a plugin (recommended)
+### As a plugin (recommended for desktop)
 
 1. Open `Plugins` -> `Marketplace` -> `Themes`
 2. Install `Rosé Pine`
 3. Select desired theme variant in `...` -> `Themes`
 
-### In `custom.css`
+### In `custom.css` (recommended for mobile)
 
 1. Choose `Edit custom.css` in `...` -> `Settings`
 2. Add one of the following lines:
