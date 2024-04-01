@@ -36,9 +36,9 @@
 2. Add one of the following lines:
 
 ```
-:custom-css-url "@import url("https://cdn.jsdelivr.net/gh/ebarruel/logseq-rose-pine-theme@1.0.0/src/rose-pine.css");"
-:custom-css-url "@import url("https://cdn.jsdelivr.net/gh/ebarruel/logseq-rose-pine-theme@1.0.0/src/rose-pine-moon.css");"
-:custom-css-url "@import url("https://cdn.jsdelivr.net/gh/ebarruel/logseq-rose-pine-theme@1.0.0/src/rose-pine-dawn.css");"
+:custom-css-url "@import url('https://cdn.jsdelivr.net/gh/ebarruel/logseq-rose-pine-theme@1.0.0/src/rose-pine.css');"
+:custom-css-url "@import url('https://cdn.jsdelivr.net/gh/ebarruel/logseq-rose-pine-theme@1.0.0/src/rose-pine-moon.css');"
+:custom-css-url "@import url('https://cdn.jsdelivr.net/gh/ebarruel/logseq-rose-pine-theme@1.0.0/src/rose-pine-dawn.css');"
 ```
 
 ## Gallery
