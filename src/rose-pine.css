@@ -36,7 +36,7 @@
     --ls-primary-text-color: hsl(var(--rose-pine-text));
     --ls-secondary-text-color: hsl(var(--rose-pine-love));
 
-    --ls-selection-text-color: var(--ls-secondary-text-color);
+    --ls-selection-text-color: hsl(var(--rose-pine-text));
     --ls-selection-background-color: var(--ls-quaternary-background-color);
     --ls-block-highlight-color: hsl(var(--rose-pine-highlight-high));
 
