@@ -228,3 +228,14 @@ html[data-theme=light] .CodeMirror .cm-tag {
     color: var(--ls-secondary-text-color);
     font-style: italic;
 }
+
+/* ---- BUG FIXES ---- */
+html:not(html[data-color]),
+html[data-theme=light][data-color='logseq'],
+html[data-theme=dark][data-color='logseq'],
+html[data-color='none'] {
+    ::selection {
+        color: var(--ls-selection-text-color);
+        background-color: var(--ls-selection-background-color);
+    }
+}

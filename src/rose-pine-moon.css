@@ -142,9 +142,8 @@
     --ls-success-background-color: hsl(var(--rose-pine-moon-highlight-low));
 }
 
+/* ---- RADIX ---- */
 html[data-theme=dark] {
-    /* radix */
-
     --background:  var(--rose-pine-moon-base);
     --primary:     var(--rose-pine-moon-surface);
     --secondary:   var(--rose-pine-moon-overlay);
@@ -171,7 +170,7 @@ html[data-theme=dark] {
     --ring:        var(--rose-pine-moon-gold);
 }
 
-/* code blocks */
+/* ---- CODE BLOCKS ---- */
 
 html[data-theme=dark] .CodeMirror {
     color: hsla(var(--rose-pine-moon-subtle), .7) !important;
@@ -227,4 +226,15 @@ html[data-theme=dark] .CodeMirror .cm-atom,
 html[data-theme=dark] .CodeMirror .cm-tag {
     color: var(--ls-secondary-text-color);
     font-style: italic;
+}
+
+/* ---- BUG FIXES ---- */
+html:not(html[data-color]),
+html[data-theme=light][data-color='logseq'],
+html[data-theme=dark][data-color='logseq'],
+html[data-color='none'] {
+    ::selection {
+        color: var(--ls-selection-text-color);
+        background-color: var(--ls-selection-background-color);
+    }
 }
