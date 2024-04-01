@@ -37,7 +37,7 @@
     --ls-secondary-text-color: hsl(var(--rose-pine-love));
 
     --ls-selection-text-color: var(--ls-secondary-text-color);
-    --ls-selection-background-color: hsl(var(--rose-pine-highlight-med));
+    --ls-selection-background-color: var(--ls-quaternary-background-color);
     --ls-block-highlight-color: hsl(var(--rose-pine-highlight-high));
 
     --ls-page-mark-color: var(--ls-secondary-text-color);
@@ -58,6 +58,7 @@
 
     /* search results palette */
     --ls-search-icon-color: hsl(var(--rose-pine-subtle));
+    --ls-search-icon-hover-color: hsl(var(--rose-pine-iris));
 
 
     /* external links */
@@ -140,6 +141,12 @@
     --ls-error-background-color: hsl(var(--rose-pine-highlight-high));
     --ls-warning-background-color: hsl(var(--rose-pine-highlight-med));
     --ls-success-background-color: hsl(var(--rose-pine-highlight-low));
+
+
+    /* color levels */
+    --color-level-1: var(--ls-secondary-background-color);
+    --color-level-2: var(--ls-tertiary-background-color);
+    --color-level-3: var(--ls-quaternary-background-color);
 }
 
 html[data-theme=dark] {
@@ -228,4 +235,15 @@ html[data-theme=dark] .CodeMirror .cm-atom,
 html[data-theme=dark] .CodeMirror .cm-tag {
     color: var(--ls-secondary-text-color);
     font-style: italic;
+}
+
+/* bug fixes */
+html:not(html[data-color]),
+html[data-theme=light][data-color='logseq'],
+html[data-theme=dark][data-color='logseq'],
+html[data-color='none'] {
+    ::selection {
+        color: var(--ls-selection-text-color);
+        background-color: var(--ls-selection-background-color);
+    }
 }
