@@ -229,13 +229,16 @@ html[data-theme=light] .CodeMirror .cm-tag {
     font-style: italic;
 }
 
-/* ---- BUG FIXES ---- */
-html:not(html[data-color]),
-html[data-theme=light][data-color='logseq'],
-html[data-theme=dark][data-color='logseq'],
-html[data-color='none'] {
-    ::selection {
-        color: var(--ls-selection-text-color);
-        background-color: var(--ls-selection-background-color);
-    }
+.cm-s-lsradix.cm-s-light div.CodeMirror-selected {
+    background: var(--ls-selection-background-color);
+}
+.cm-s-lsradix.cm-s-light .CodeMirror-line::selection,
+.cm-s-light .CodeMirror-line > span::selection,
+.cm-s-light .CodeMirror-line > span > span::selection {
+    background: var(--ls-selection-background-color);
+}
+.cm-s-lsradix.cm-s-light .CodeMirror-line::-moz-selection,
+.cm-s-light .CodeMirror-line > span::-moz-selection,
+.cm-s-light .CodeMirror-line > span > span::-moz-selection {
+    background: var(--ls-selection-background-color);
 }
