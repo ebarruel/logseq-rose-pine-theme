@@ -149,8 +149,9 @@
     --color-level-3: var(--ls-quaternary-background-color);
 }
 
+/* ---- RADIX ---- */
+
 html[data-theme=dark] {
-    /* radix */
 
     --background:  var(--rose-pine-base);
 
@@ -179,7 +180,7 @@ html[data-theme=dark] {
     --ring:        var(--rose-pine-gold);
 }
 
-/* code mirror */
+/* ---- CODE MIRROR ---- */
 
 html[data-theme=dark] .CodeMirror {
     color: hsla(var(--rose-pine-subtle), .7) !important;
@@ -248,4 +249,15 @@ html[data-theme=dark]
 .cm-s-dark .CodeMirror-line > span::-moz-selection,
 .cm-s-dark .CodeMirror-line > span > span::-moz-selection {
     background: var(--ls-selection-background-color);
+}
+
+/* ---- BUG FIXES ---- */
+html:not(html[data-color]),
+html[data-theme=light][data-color='logseq'],
+html[data-theme=dark][data-color='logseq'],
+html[data-color='none'] {
+    ::selection, ::-moz-selection {
+        color: var(--ls-selection-text-color);
+        background-color: var(--ls-selection-background-color);
+    }
 }
