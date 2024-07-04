@@ -242,12 +242,6 @@ html[data-theme=dark]
 }
 
 /* ---- BUG FIXES ---- */
-html:not(html[data-color]),
-html[data-theme=light][data-color='logseq'],
-html[data-theme=dark][data-color='logseq'],
-html[data-color='none'] {
-    ::selection, ::-moz-selection {
-        color: var(--ls-selection-text-color);
-        background-color: var(--ls-selection-background-color);
-    }
+html[data-color=none] ::selection {
+    background-color: var(--ls-selection-background-color);
 }
