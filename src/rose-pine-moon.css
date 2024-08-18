@@ -143,7 +143,7 @@
 }
 
 /* ---- RADIX ---- */
-html[data-theme=dark] {
+html *, html[data-theme=dark] {
     --background:  var(--rose-pine-moon-base);
     --primary:     var(--rose-pine-moon-surface);
     --secondary:   var(--rose-pine-moon-overlay);

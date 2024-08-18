@@ -144,7 +144,7 @@
 
 /* ---- RADIX ---- */
 
-html[data-theme=light] {
+html *, html[data-theme=light] {
     --background:  var(--rose-pine-dawn-base);
     --primary:     var(--rose-pine-dawn-surface);
     --secondary:   var(--rose-pine-dawn-overlay);
