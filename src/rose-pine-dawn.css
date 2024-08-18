@@ -247,3 +247,9 @@ html[data-theme=light] .CodeMirror .cm-tag {
 html[data-color=none] ::selection {
     background-color: var(--ls-selection-background-color);
 }
+
+html[data-theme=light][data-color=logseq] {
+    .form-input, .ui__modal-panel {
+        border-color: hsl(var(--ls-secondary-background-color));
+    }
+}

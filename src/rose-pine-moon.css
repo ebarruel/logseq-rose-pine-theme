@@ -245,3 +245,9 @@ html[data-theme=dark]
 html[data-color=none] ::selection {
     background-color: var(--ls-selection-background-color);
 }
+
+html[data-theme=dark][data-color=logseq] {
+    .form-input, .ui__modal-panel {
+        border-color: hsl(var(--ls-secondary-background-color));
+    }
+}
