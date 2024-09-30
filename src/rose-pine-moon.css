@@ -250,4 +250,8 @@ html[data-theme=dark][data-color=logseq] {
     .form-input, .ui__modal-panel {
         border-color: hsl(var(--ls-secondary-background-color));
     }
+
+    .ui__button.as-ghost:hover {
+        background-color: hsl(var(--ls-menu-hover-color));
+    }
 }
